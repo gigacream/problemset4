@@ -38,8 +38,8 @@ public class ProblemSet4 {
 		int inner_length = in.length();
 		if (outer_length == 4 && inner_length == 3) {
 			String result = out.substring(0, 2) + in + out.substring(2);
-			System.out.println(result);
-		} else System.out.println(null); }
+			return(result);
+		} else return (null); }
 
 
 	public String endsMeet(String str, int n) {
@@ -101,7 +101,7 @@ public int upOrDown(double number, char operation) {
 		newNumber = (int) number + 1;
 	}
 	
-	return newNumber;}}
+	return newNumber;}
 
 public int countMe(String text, char end) {
 	if (text == null) {
